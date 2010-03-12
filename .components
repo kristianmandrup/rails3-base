@@ -1,6 +1,0 @@
---- 
-:orm: activerecord
-:mock: mocha
-:renderer: haml
-:script: jquery
-:test: shoulda
