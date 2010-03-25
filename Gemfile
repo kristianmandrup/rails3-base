@@ -17,6 +17,8 @@ gem "devise", "1.1.pre2"
 gem "compass"
 gem "compass-960-plugin"
 
+gem "aegis"
+
 ## Bundle the gems you use:
 # gem "bj"
 # gem "hpricot", "0.6"
