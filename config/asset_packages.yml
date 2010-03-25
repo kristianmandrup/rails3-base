@@ -1,0 +1,8 @@
+--- 
+javascripts: 
+- base: 
+  - rails
+  - app
+stylesheets: 
+- base: 
+  - app

@@ -1,0 +1,19 @@
+/ => status page
+/login => login page
+/logout => logout page
+/receipts => list receipts
+/receipts/new => create new receipt
+/receipts/edit => edit receipt
+
+
+Models:
+
+Group has many Users
+Group has many Receipts
+Receipt has many ReceiptItems
+Receipt has one User (owner)
+
+
+User {
+  username, password, group
+}
