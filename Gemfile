@@ -1,11 +1,14 @@
+<<<<<<< HEAD:Gemfile
 # Edit this Gemfile to bundle your application's dependencies.
+=======
+>>>>>>> rails3_beta2:Gemfile
 source 'http://rubygems.org'
 
+gem 'rails', '3.0.0.beta2'
 
-gem "rails", "3.0.0.beta2"
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-## Bundle edge rails:
-# gem "rails", :git => "git://github.com/rails/rails.git"
 
 # ActiveRecord requires a database adapter. By default,
 # Rails has selected sqlite3.
@@ -28,5 +31,5 @@ gem "aegis"
 ## Bundle gems used only in certain environments:
 # gem "rspec", :group => :test
 # group :test do
-#   gem "webrat"
+#   gem 'webrat'
 # end
